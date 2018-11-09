@@ -15,7 +15,14 @@
 这个方法主要的作用是返回属性的描述对象（descriptor）。
 ## 3. js创建对象的几种方式
 ### a. 工厂模式
-    > function createObj(){
+     function createObj(){
+        var o = new Object();
+        o.name = "zs";
+        o.age = 3;
+        o.sayName= function() {
+            console.log(this.name)
+        }
+        return o;
         
     }
 ### b. 构造函数模式
