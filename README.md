@@ -63,3 +63,19 @@
           console.log( string.match(regex) ); // ["good", "nice"]
           
           参考:https://zhuanlan.zhihu.com/p/27338649
+## 9. react 心得
+       * react setState({temp:temp})
+            *这个操作是异步的，解决办法：
+            > a. 使用回调函数
+                  this.setState(theQuery, () => {
+                    action.getRefundList(theQuery)
+                  } );
+              b. 使用setTimeout
+                  this.setState({
+                    selection: value
+                  });
+                  
+                  setTimeout(this.fireOnSelect, 0);
+       * 不要再rander函数里面调用setState();
+       * componentWillReceiveProps 
+            在组件接收到一个新的 prop (更新后)时被调用。这个方法在初始化render时不会被调用。
