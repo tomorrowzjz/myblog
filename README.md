@@ -79,3 +79,16 @@
        * 不要再rander函数里面调用setState();
        * componentWillReceiveProps 
             在组件接收到一个新的 prop (更新后)时被调用。这个方法在初始化render时不会被调用。
+## js 原型链
+```js
+    > function Person () {
+      
+      }
+      let b = new Person();
+      console.log(Person.prototype.constructor === Person);//true
+      console.log(Object.prototype.__proto__);//null
+      b.__proto__ === Person.prototype; // true
+      Person.__proto__ === Function.prototype; // true
+      Person.prototype.__proto__ === Object.prototype; //true
+```
+![prototype](.\img\prototype.jpg)
