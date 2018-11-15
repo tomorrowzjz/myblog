@@ -91,4 +91,4 @@
       Person.__proto__ === Function.prototype; // true
       Person.prototype.__proto__ === Object.prototype; //true
 ```
-![avatar](.\img\prototype.jpg) 
+![prototype](https://github.com/tomorrowzjz/myblog/tree/master/img/prototype.jpg) 
