@@ -26,6 +26,10 @@
         
     }
 ### b. 构造函数模式
+     function Person(){
+        
+     }
+     var person = new Person();
 ### c. 原型模式
 
 ## 4. 在JSX中设置style属性
@@ -43,8 +47,8 @@
 ## 6. 字符组:[123456abcdefGHIJKLM]，可以写成[1-6a-fG-M]。用连字符"-"来省略和简写
          排除字符组:[^abc]，表示是一个除"a"、"b"、"c"之外的任意一个字符。
          常见的简写形式：
-         \d 就是[0-9]。表示是一位数字。记忆方式：其英文是digit（数字）。
-         \D 就是[^0-9]。表示除数字外的任意字符。
+         
+         \d 就是[0-9]。表示是一位数字。记忆方式：其英文是digit（数字）。\D 就是[^0-9]。表示除数字外的任意字符。
          \w 就是[0-9a-zA-Z_]。表示数字、大小写字母和下划线。记忆方式：w是word的简写，也称单词字符。
          \W 就是[^0-9a-zA-Z_]。非单词字符。
          \s 就是[ \t\v\n\r\f]。表示空白符，包括空格、水平制表符、垂直制表符、换行符、回车符、换页符。记忆方式：s是space character的首字母。
@@ -79,7 +83,7 @@
        * 不要再rander函数里面调用setState();
        * componentWillReceiveProps 
             在组件接收到一个新的 prop (更新后)时被调用。这个方法在初始化render时不会被调用。
-## js 原型链
+## 10. js 原型链
 ```js
     > function Person () {
       
@@ -92,3 +96,30 @@
       Person.prototype.__proto__ === Object.prototype; //true
 ```
 ![prototype](https://github.com/tomorrowzjz/myblog/tree/master/img/prototype.jpg) 
+## 11. 数组方法 slice()
+    > slice() 方法返回一个从已有的数组中截取一部分元素片段组成的新数组（不改变原来的数组！） 
+      用法：array．slice(start,end) start表示是起始元素的下标， end表示的是终止元素的下标
+## 12. window.location 和 document.location 引用的是同一个对象。
+## 13. location.search.substring(1)//获取地址栏的查询字符串
+## 14.location.assign("http://www.wrox.com");
+      window.location = "http://www.wrox.com"; 
+      location.href = "http://www.wrox.com"; 
+      location.replace("http://www.wrox.com/"); //导致浏览器位置改变，但不会在历史记录中生成新记录。
+      location.reload(); //重新加载（有可能从缓存中加载）
+      location.reload(true); //重新加载（从服务器重新加载）
+## 15. element.getAttribute(attributename) 
+        ele.getAttribute('class')//获取dom元素对应的类名
+        ele.className='username';
+## 16. 兼容
+       > .svg-bg { 
+           background: url("example.png"); /* 兼容*/
+           background-image: url("example.svg"); 
+       }
+       // 简单的判断IE10及以下不进入富文本编辑器，该组件不兼容
+       if(navigator.userAgent.indexOf('MSIE') > -1 && to.path === '/editor'){
+           Vue.prototype.$alert('vue-quill-editor组件不兼容IE10及以下浏览器，请使用更高版本的浏览器查看', '浏览器不兼容通知', {
+               confirmButtonText: '确定'
+           });
+       }else{
+           next();
+       }
