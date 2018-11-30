@@ -88,6 +88,8 @@
     1. 　npm install babel-polyfill --save
     2. 　在main.js中 import "babel-polyfill"
     3.    vuex的index.js文件中  import "babel-polyfill"
+## 如果需要通过 childNodes 属性 遍历子节点，那么一定不要忘记浏览器间的这一差别
+    for (var i=0, len=element.childNodes.length; i < len; i++){     if (element.childNodes[i].nodeType == 1){         //执行某些操作     } }
     
     
     

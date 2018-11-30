@@ -123,3 +123,20 @@
        }else{
            next();
        }
+## 17 NodeList  HTMLCollection
+     NodeList 、NamedNodeMap 和 HTMLCollection，这三个集合都是“动态的”，每当文档结构发生变化时，它们都会得到更新
+## 18  classList 
+     add(value)：将给定的字符串值添加到列表中。如果值已经存在，就不添加了。
+     contains(value)：表示列表中是否存在给定的值，如果存在则返回 true，否则返回 false。
+     remove(value)：从列表中删除给定的字符串。
+     toggle(value)：如果列表中已经存在给定的值，删除它；如果列表中没有给定的值，添加它。
+    
+    渲染页面的模式: 标准、混杂
+    标准模式下，document.compatMode 的 值等于"CSS1Compat"
+    混杂模式下，document.compatMode 的值等于"BackCompat"
+    
+     head 属性 作为对 document.body 引用文档的<body>元素的补充，HTML5新增了 document.head 属性， 引用文档的<head>元素。
+     要引用文档的<head>元素，可以结合使用这个属性和另一种后备方法。 
+    var head = document.head || document.getElementsByTagName("head")[0]; 
+## 19 vue mixins
+        Vue 组件中可复用功能的方式,可以将每个组件中共有的方法(逻辑相同的)抽离出来，在使用时将其混入  
