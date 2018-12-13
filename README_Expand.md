@@ -89,7 +89,22 @@
     2. 　在main.js中 import "babel-polyfill"
     3.    vuex的index.js文件中  import "babel-polyfill"
 ## 如果需要通过 childNodes 属性 遍历子节点，那么一定不要忘记浏览器间的这一差别
-    for (var i=0, len=element.childNodes.length; i < len; i++){     if (element.childNodes[i].nodeType == 1){         //执行某些操作     } }
+    for (var i=0, len=element.childNodes.length; i < len; i++){ 
+        if (element.childNodes[i].nodeType == 1){
+                 //执行某些操作 
+        
+        }
+    }
+## 事件委派 event.target与event.srcElement
+　　target 事件属性可返回事件的目标节点（触发该事件的节点），如生成事件的元素、文档或窗口。
+　　在标准浏览器下我们一般使用event.target解决，然而低版本IE浏览器不兼容，这时候就得使用event.srcElement。
+    if(event.target){ // IE10及以下版本浏览器不能识别
+        // do something...
+    }else if(event.srcElement){   // IE10及以下版本会执行该代码
+        // do something...
+    }
+
+
     
     
     
