@@ -103,6 +103,45 @@
     }else if(event.srcElement){   // IE10及以下版本会执行该代码
         // do something...
     }
+## Cross Site Request Forgery[ˈfɔ:dʒəri]  (跨站点请求伪造)   
+    >伪装可信用户的请求来攻击信任该用户的网站。
+    防御：
+    ###Synchronizer token pattern
+    令牌同步模式（Synchronizer token pattern，简称STP）是在用户请求的页面中的所有表单中嵌入一个token，在服务端验证这个
+    token的技术。token可以是任意的内容，但是一定要保证无法被攻击者猜测到或者查询到。攻击者在请求中无法使用正确的token，
+    因此可以判断出未授权的请求。
+    
+    ###Cookie-to-Header Token
+    对于使用Js作为主要交互技术的网站，将CSRF的token写入到cookie中，然后使用javascript读取token的值，在发送http请求的时
+    候将其作为请求的header，最后服务器验证请求头中的token是否合法。
+    
+    ###验证码
+       验证码被认为是对抗 CSRF 攻击最简洁而有效的防御方法。
+    ###Referer Check
+       根据 HTTP 协议，在 HTTP 头中有一个字段叫 Referer，它记录了该 HTTP 请求的来源地址。通过 Referer Check，
+       可以检查请求是否来自合法的"源"。
+    参考：https://github.com/zz1211/Doraemon/issues/24
+          https://github.com/dwqs/blog/issues/68
+##XSS，即 Cross Site Script，中译是跨站脚本攻击；
+    >用某种方法让用户的Client端执行指定的一段Javascript脚本，来完成攻击。总体来说，分三类：存储型XSS、反射型XSS和DOM-XSS。
+    防御：
+    Http-Only禁止Cookie被Client端Javascript获取。
+    Client端对用户的输入进行转译过滤。
+    Client端对服务器返回的展示的数据进行转译过滤，因为可能中间被代理改包，都是有可能的。
+    服务端对Client端返回的数据进行转译再保存到数据库或者缓存，因为攻击的人可以直接调接口不通过前端输入。
+    【恩，原则就是前后端彼此不完全信任对方】
+    
+##
+    防御 XSS 攻击
+    HttpOnly 防止劫取 Cookie
+    用户的输入检查
+    服务端的输出检查
+    防御 CSRF 攻击
+    验证码
+    Referer Check
+    Token 验证
+##sql注入
+   参考https://bbs.ichunqiu.com/thread-9518-1-1.html
 
 
     
