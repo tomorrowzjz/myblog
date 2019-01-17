@@ -142,6 +142,27 @@
     Token 验证
 ##sql注入
    参考https://bbs.ichunqiu.com/thread-9518-1-1.html
+   
+   fabric.js
+   
+## js reduce
+    reduce(callback,initiaValue)会传入两个变量，回调函数(callback)和初始值(initiaValue)。
+    假设函数有4个传入参数，prev和next，index和array。 Prev和next是你必须要了解的。
+    当没有传入初始值时，prev是从数组中第一个元素开始的，next数组是第二个元素。
+    但是当传入初始值（initiaValue）后,第一个prev将是initivalValue，next将是数组中的第一个元素。
+    
+    作者：liwuwuzhi
+    链接：https://www.jianshu.com/p/d00ca61026d7
+## cors (Cross-origin resource sharing) 跨域资源共享
+    https://zhuanlan.zhihu.com/p/24411090
+##  统一资源标识符（英语：Uniform Resource Identifier，或URI)  URI的最常见的形式是统一资源定位符（URL）
+##  http协议是应用层协议，一般建立在tcp协议的基础之上（当然你的实现非要基于udp也是可以的），
+    也就是说http协议的数据收发是通过tcp协议的。
+##Load 和 DOMContentLoaded 区别
+  Load 事件触发代表页面中的 DOM，CSS，JS，图片已经全部加载完毕。
+  
+  DOMContentLoaded 事件触发代表初始的 HTML 被完全加载和解析，不需要等待 CSS，JS，图片加载。
+  
 
 
     

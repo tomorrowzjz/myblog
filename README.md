@@ -204,4 +204,11 @@
 ## sessionStorage
     通过点击链接（或者用了 window.open）打开的新标签页之间是属于同一个 session 的，
     但新开一个标签页总是会初始化一个新的 session，即使网站是一样的，它们也不属于同一个 session。
+##  new ExtractTextWebpackPlugin({ // 在plugins中配置属性
+       allChunks: false // true表示会把所有的css都提取出来，false只会把初始化的提取，默认是false
+   })
+##  navigator.onLine
+    navigator.onLine ，这个属性值为 true 表示设备能上网，值为 false 表示设备离线。
+## IndexedDB
+ Indexed Database API，或者简称为 IndexedDB，是在浏览器中保存结构化数据的一种数据库。 
 
