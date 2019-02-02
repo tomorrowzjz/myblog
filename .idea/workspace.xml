@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$USER_HOME$/Desktop/新打标简单接口文档.txt" description="&#10;{&#10;    &quot;username&quot;: &quot;victor&quot;,&#10;    &quot;password&quot;: &quot;vict..." line="18" />
     <bookmark url="file://F:/12月/label-admin-erp/src/api/login.js" description="&#10;export function validate_phone(data) {&#10;  return r..." line="37" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d587348-fff6-4046-be25-ceb1f2318e77" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hamburger.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README_Expand.md" afterPath="$PROJECT_DIR$/README_Expand.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +22,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="525">
-                <caret line="211" column="12" lean-forward="false" selection-start-line="211" selection-start-column="12" selection-end-line="211" selection-end-column="12" />
+              <first_editor relative-caret-position="287">
+                <caret line="206" column="32" lean-forward="false" selection-start-line="206" selection-start-column="8" selection-end-line="206" selection-end-column="32" />
                 <folding>
                   <marker date="1547464909863" expanded="true" signature="3039:3055" ph="{...}" />
                 </folding>
@@ -37,42 +33,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ps.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/ps.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gundongtiao - 副本.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/gundongtiao - 副本.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="103" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tests.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1479">
-              <caret line="95" column="27" lean-forward="true" selection-start-line="95" selection-start-column="27" selection-end-line="95" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test2.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1000">
-              <caret line="102" column="16" lean-forward="false" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="16" />
-              <folding />
+      <file leaf-file-name="README_Expand.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README_Expand.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="387">
+                <caret line="256" column="109" lean-forward="false" selection-start-line="256" selection-start-column="109" selection-end-line="256" selection-end-column="109" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -150,7 +119,6 @@
         <option value="$USER_HOME$/Desktop/新打标简单接口文档(3).txt" />
         <option value="$USER_HOME$/Desktop/images.json" />
         <option value="$USER_HOME$/Desktop/新打标简单接口文档(4).txt" />
-        <option value="$PROJECT_DIR$/README_Expand.md" />
         <option value="$USER_HOME$/Desktop/tests.html" />
         <option value="$USER_HOME$/Desktop/color.js" />
         <option value="$USER_HOME$/Desktop/edit.css" />
@@ -160,6 +128,9 @@
         <option value="$USER_HOME$/Desktop/gundongtiao - 副本.html" />
         <option value="$PROJECT_DIR$/tests.html" />
         <option value="$PROJECT_DIR$/test2.html" />
+        <option value="$USER_HOME$/Desktop/述职.txt" />
+        <option value="$USER_HOME$/Desktop/金猪赐福可印刷背景墙_设计页－稿定设计_files/manifest.53af7c60.js" />
+        <option value="$PROJECT_DIR$/README_Expand.md" />
       </list>
     </option>
   </component>
@@ -177,8 +148,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-19" />
-    <option name="y" value="45" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -197,7 +168,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -213,6 +183,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -338,24 +309,29 @@
       <workItem from="1546505092925" duration="5219000" />
       <workItem from="1546829310964" duration="9655000" />
       <workItem from="1547085281171" duration="6295000" />
-      <workItem from="1547463336538" duration="9510000" />
+      <workItem from="1547463336538" duration="9582000" />
+      <workItem from="1548384272222" duration="2432000" />
+      <workItem from="1548416719058" duration="622000" />
+      <workItem from="1548669516531" duration="3898000" />
+      <workItem from="1548899293264" duration="2137000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="258401000" />
+    <option name="totallyTimeSpent" value="267562000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-19" y="45" width="1936" height="1056" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1119403" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.116204694" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17136659" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22234273" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -378,46 +354,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding>
-              <marker date="1547464909863" expanded="true" signature="3039:3055" ph="{...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding>
-              <marker date="1547464909863" expanded="true" signature="3039:3055" ph="{...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="625">
-            <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-            <folding>
-              <marker date="1547464909863" expanded="true" signature="3039:3055" ph="{...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.html" />
     <entry file="file://$USER_HOME$/Desktop/xhs.json" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -453,13 +389,7 @@
     <entry file="file://$USER_HOME$/Desktop/xaa - 副本.json" />
     <entry file="file://$USER_HOME$/Desktop/index.vue" />
     <entry file="file://$USER_HOME$/Desktop/json数据/fa上衣.json" />
-    <entry file="file://$USER_HOME$/Desktop/新打标简单接口文档(1).txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14050">
-          <caret line="562" column="39" lean-forward="false" selection-start-line="562" selection-start-column="15" selection-end-line="562" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/新打标简单接口文档(1).txt" />
     <entry file="file://$USER_HOME$/Desktop/json数据/32 (4).json" />
     <entry file="file://$USER_HOME$/Desktop/json数据/32_11.json" />
     <entry file="file://$USER_HOME$/Desktop/json数据/32_12.json" />
@@ -468,30 +398,12 @@
     <entry file="file://$USER_HOME$/Desktop/json数据/32_15.json" />
     <entry file="file://$USER_HOME$/Desktop/json数据/32_17.json" />
     <entry file="file://$USER_HOME$/Desktop/json数据/32_18.json" />
-    <entry file="file://$USER_HOME$/Desktop/json数据/bu/xab.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="5000" column="0" lean-forward="true" selection-start-line="5000" selection-start-column="0" selection-end-line="5000" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/json数据/bu/fa上衣.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="98" lean-forward="true" selection-start-line="9" selection-start-column="98" selection-end-line="9" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/json数据/bu/xab.json" />
+    <entry file="file://$USER_HOME$/Desktop/json数据/bu/fa上衣.json" />
     <entry file="file://$USER_HOME$/Desktop/json数据/32_171.json" />
     <entry file="file://$USER_HOME$/Desktop/json数据/32_111.json" />
     <entry file="file://$USER_HOME$/Desktop/index(7).vue" />
-    <entry file="file://$USER_HOME$/Desktop/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="33" column="536" lean-forward="false" selection-start-line="33" selection-start-column="536" selection-end-line="33" selection-end-column="536" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/test.html" />
     <entry file="file://$USER_HOME$/Downloads/tag001.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-282296">
@@ -499,149 +411,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/login/register/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="77" column="41" lean-forward="false" selection-start-line="77" selection-start-column="41" selection-end-line="77" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/新打标简单接口文档(3).txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18650">
-          <caret line="746" column="10" lean-forward="false" selection-start-line="746" selection-start-column="5" selection-end-line="746" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/json数据/32_110 - 副本.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/login/register/index.vue" />
+    <entry file="file://$USER_HOME$/Desktop/新打标简单接口文档(3).txt" />
+    <entry file="file://$USER_HOME$/Desktop/json数据/32_110 - 副本.json" />
     <entry file="file://$USER_HOME$/Desktop/images.json" />
-    <entry file="file://$USER_HOME$/Desktop/新打标简单接口文档.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/新打标简单接口文档(4).txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17425">
-          <caret line="697" column="27" lean-forward="false" selection-start-line="697" selection-start-column="22" selection-end-line="697" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/sku.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="57" lean-forward="false" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/color.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="51" column="25" lean-forward="false" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/新打标简单接口文档.txt" />
+    <entry file="file://$USER_HOME$/Desktop/新打标简单接口文档(4).txt" />
+    <entry file="file://$USER_HOME$/Desktop/sku.js" />
+    <entry file="file://$USER_HOME$/Desktop/color.js" />
     <entry file="file://$USER_HOME$/Desktop/深绘 Deepdraw.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22700">
           <caret line="908" column="78" lean-forward="false" selection-start-line="908" selection-start-column="72" selection-end-line="908" selection-end-column="78" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1547102794871" expanded="true" signature="43818:43824" ph=" " />
-            <marker date="1547102794871" expanded="true" signature="43886:43931" ph="..." />
-            <marker date="1547102794871" expanded="true" signature="43967:43973" ph=" " />
-            <marker date="1547102794871" expanded="true" signature="44020:44065" ph="..." />
-            <marker date="1547102794871" expanded="true" signature="45015:45021" ph=" " />
-            <marker date="1547102794871" expanded="true" signature="45085:45130" ph="..." />
-            <marker date="1547102794871" expanded="true" signature="45895:45901" ph=" " />
-            <marker date="1547102794871" expanded="true" signature="45964:46009" ph="..." />
-            <marker date="1547102794871" expanded="true" signature="46035:46041" ph=" " />
-            <marker date="1547102794871" expanded="true" signature="46088:46133" ph="..." />
-            <marker date="1547102794871" expanded="true" signature="46161:46167" ph=" " />
-            <marker date="1547102794871" expanded="true" signature="46214:46259" ph="..." />
-            <marker date="1547102794871" expanded="true" signature="47127:47133" ph=" " />
-            <marker date="1547102794871" expanded="true" signature="47196:47241" ph="..." />
-            <marker date="1547102794871" expanded="true" signature="47269:47275" ph=" " />
-            <marker date="1547102794871" expanded="true" signature="47322:47367" ph="..." />
-            <marker date="1547102794871" expanded="true" signature="48396:48402" ph=" " />
-            <marker date="1547102794871" expanded="true" signature="48465:48510" ph="..." />
-            <marker date="1547102794871" expanded="true" signature="58715:58722" ph="×" />
-            <marker date="1547102794871" expanded="true" signature="58925:58932" ph="×" />
-            <marker date="1547102794871" expanded="true" signature="59254:59272" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/tests.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/tests.html" />
     <entry file="file://$USER_HOME$/Desktop/深绘详情页编辑器.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding>
-            <marker date="1547091730981" expanded="true" signature="193813:193851" ph="..." />
-            <marker date="1547091730981" expanded="true" signature="194082:194120" ph="..." />
-            <marker date="1547091730981" expanded="true" signature="194152:194170" ph="..." />
-            <marker date="1547091730981" expanded="true" signature="195163:195210" ph="..." />
-            <marker date="1547091730981" expanded="true" signature="195306:195366" ph="..." />
-            <marker date="1547091730981" expanded="true" signature="195714:195761" ph="..." />
-            <marker date="1547091730981" expanded="true" signature="195857:195919" ph="..." />
-            <marker date="1547091730981" expanded="true" signature="196488:196535" ph="..." />
-            <marker date="1547091730981" expanded="true" signature="196632:196694" ph="..." />
-            <marker date="1547091730981" expanded="true" signature="197038:197085" ph="..." />
-            <marker date="1547091730981" expanded="true" signature="197182:197242" ph="..." />
-            <marker date="1547091730981" expanded="true" signature="197728:197775" ph="..." />
-            <marker date="1547091730981" expanded="true" signature="197872:197940" ph="..." />
-            <marker date="1547091730981" expanded="true" signature="198256:198303" ph="..." />
-            <marker date="1547091730981" expanded="true" signature="198400:198466" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/edit.css">
+    <entry file="file://$USER_HOME$/Desktop/edit.css" />
+    <entry file="file://$USER_HOME$/Desktop/gundongtiao.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15750">
-          <caret line="630" column="1" lean-forward="true" selection-start-line="630" selection-start-column="1" selection-end-line="630" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="172">
+          <caret line="529" column="13" lean-forward="true" selection-start-line="529" selection-start-column="13" selection-end-line="529" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README_Expand.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="525">
-            <caret line="164" column="2" lean-forward="false" selection-start-line="164" selection-start-column="2" selection-end-line="164" selection-end-column="2" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$USER_HOME$/Desktop/gundongtiao - 副本.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="103" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/json数据/32_121_test.json" />
+    <entry file="file://$PROJECT_DIR$/test2.html" />
+    <entry file="file://$PROJECT_DIR$/tests.html" />
+    <entry file="file://$USER_HOME$/Desktop/ps.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/vue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="42" column="32" lean-forward="true" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/述职.txt" />
+    <entry file="file://$USER_HOME$/Desktop/金猪赐福可印刷背景墙_设计页－稿定设计_files/manifest.53af7c60.js.下载" />
+    <entry file="file://$USER_HOME$/Desktop/金猪赐福可印刷背景墙_设计页－稿定设计_files/manifest.53af7c60.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-800">
+          <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="525">
-            <caret line="211" column="12" lean-forward="false" selection-start-line="211" selection-start-column="12" selection-end-line="211" selection-end-column="12" />
+          <first_editor relative-caret-position="287">
+            <caret line="206" column="32" lean-forward="false" selection-start-line="206" selection-start-column="8" selection-end-line="206" selection-end-column="32" />
             <folding>
               <marker date="1547464909863" expanded="true" signature="3039:3055" ph="{...}" />
             </folding>
@@ -650,97 +489,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/gundongtiao.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="529" column="13" lean-forward="true" selection-start-line="529" selection-start-column="13" selection-end-line="529" selection-end-column="13" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#menu#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#15148#15154#0" expanded="false" />
-            <element signature="e#15154#15160#0" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#li#5;n#menu#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#li#5;n#menu#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#15941#15947#0" expanded="false" />
-            <element signature="e#15947#15953#0" expanded="false" />
-            <element signature="e#16053#16059#0" expanded="false" />
-            <element signature="e#16059#16065#0" expanded="false" />
-            <element signature="e#16139#16145#0" expanded="false" />
-            <element signature="e#16145#16151#0" expanded="false" />
-            <element signature="e#16151#16157#0" expanded="false" />
-            <element signature="e#16157#16163#0" expanded="false" />
-            <element signature="e#16163#16169#0" expanded="false" />
-            <element signature="e#16169#16175#0" expanded="false" />
-            <element signature="e#16245#16251#0" expanded="false" />
-            <element signature="e#16251#16257#0" expanded="false" />
-            <element signature="e#16257#16263#0" expanded="false" />
-            <element signature="e#16263#16269#0" expanded="false" />
-            <element signature="e#16269#16275#0" expanded="false" />
-            <element signature="e#16275#16281#0" expanded="false" />
-            <element signature="e#16354#16360#0" expanded="false" />
-            <element signature="e#16360#16366#0" expanded="false" />
-            <element signature="e#16366#16372#0" expanded="false" />
-            <element signature="e#16372#16378#0" expanded="false" />
-            <element signature="e#16378#16384#0" expanded="false" />
-            <element signature="e#16384#16390#0" expanded="false" />
-            <element signature="e#16466#16472#0" expanded="false" />
-            <element signature="e#16472#16478#0" expanded="false" />
-            <element signature="e#16478#16484#0" expanded="false" />
-            <element signature="e#16484#16490#0" expanded="false" />
-            <element signature="e#16490#16496#0" expanded="false" />
-            <element signature="e#16496#16502#0" expanded="false" />
-            <element signature="e#16583#16589#0" expanded="false" />
-            <element signature="e#16589#16595#0" expanded="false" />
-            <element signature="e#16595#16601#0" expanded="false" />
-            <element signature="e#16601#16607#0" expanded="false" />
-            <element signature="e#16607#16613#0" expanded="false" />
-            <element signature="e#16613#16619#0" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/ps.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/gundongtiao - 副本.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="103" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="95" column="27" lean-forward="true" selection-start-line="95" selection-start-column="27" selection-end-line="95" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/json数据/32_121_test.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="133" lean-forward="true" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="133" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="102" column="16" lean-forward="false" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="16" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/README_Expand.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="387">
+            <caret line="256" column="109" lean-forward="false" selection-start-line="256" selection-start-column="109" selection-end-line="256" selection-end-column="109" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

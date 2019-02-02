@@ -162,7 +162,100 @@
   Load 事件触发代表页面中的 DOM，CSS，JS，图片已经全部加载完毕。
   
   DOMContentLoaded 事件触发代表初始的 HTML 被完全加载和解析，不需要等待 CSS，JS，图片加载。
-  
+##在vue文件中的<style>内填写需要引用的文件
+@import "./css/indexTest.css";
+
+## ljdm
+    mounted() {
+        this.$refs['my-tag'].addEventListener(this.myEvent,() => {
+             // Some logic..
+        });
+    },
+    beforeDestroy() {
+        this.$refs['my-tag'].addEventListener(this.myEvent,() => {
+             // Some logic..
+        });
+    }
+##递归组件
+　　组件在它的模板内可以递归地调用自己，只有当它有 name 选项时才可以。 
+##  
+参数或查询的改变并不会触发进入/离开的导航守卫。你可以通过观察 $route 对象来应对这些变化，或使用 beforeRouteUpdate 的组件内守卫。
+
+## vueRouter  滚动行为
+
+    const router = new VueRouter({
+      routes: [...],
+      scrollBehavior (to, from, savedPosition) {
+        // return 期望滚动到哪个的位置
+      }
+    })
+    
+    ###如果你要模拟“滚动到锚点”的行为：
+    
+    scrollBehavior (to, from, savedPosition) {
+      if (to.hash) {
+        return {
+          selector: to.hash
+        }
+      }
+    }
+## VUE 父子组件 props
+    1.Vue.component('my-component', {
+      props: {
+        // 基础的类型检查 (`null` 匹配任何类型)
+        propA: Number,
+        // 多个可能的类型
+        propB: [String, Number],
+        // 必填的字符串
+        propC: {
+          type: String,
+          required: true
+        },
+        // 带有默认值的数字
+        propD: {
+          type: Number,
+          default: 100
+        },
+        // 带有默认值的对象
+        propE: {
+          type: Object,
+          // 对象或数组默认值必须从一个工厂函数获取
+          default: function () {
+            return { message: 'hello' }
+          }
+        },
+        // 自定义验证函数
+        propF: {
+          validator: function (value) {
+            // 这个值必须匹配下列字符串中的一个
+            return ['success', 'warning', 'danger'].indexOf(value) !== -1
+          }
+        }
+      }
+    })
+    2.Vue.component('blog-post', {
+        // 在 JavaScript 中是 camelCase 的
+        props: ['postTitle'],
+        template: '<h3>{{ postTitle }}</h3>'
+      })
+##for in   for of
+    for..of和for..in均可迭代一个列表；但是用于迭代的值却不同，for..in迭代的是对象的 键 的列表，
+    而for..of则迭代对象的键对应的值。
+    另一个区别是for..in可以操作任何对象；它提供了查看对象属性的一种方法。 
+    但是 for..of关注于迭代对象的值。内置对象Map和Set已经实现了Symbol.iterator方法，让我们可以访问它们保存的值。
+    >let pets = new Set(["Cat", "Dog", "Hamster"]);
+     pets["species"] = "mammals";
+     
+     for (let pet in pets) {
+         console.log(pet); // "species"
+     }
+     
+     for (let pet of pets) {
+         console.log(pet); // "Cat", "Dog", "Hamster"
+     }
+## vue 父子组件的生命周期顺序
+    父组件 beforecreate ->created ->beforemount -> 子组件beforecreate ->created ->beforemount ->mounted->父组件mounted 
+
 
 
     
