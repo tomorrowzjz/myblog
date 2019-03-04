@@ -211,4 +211,32 @@
     navigator.onLine ，这个属性值为 true 表示设备能上网，值为 false 表示设备离线。
 ## IndexedDB
  Indexed Database API，或者简称为 IndexedDB，是在浏览器中保存结构化数据的一种数据库。 
-
+## 暂时性死区
+    在代码块内，使用let命令声明变量之前，该变量都是不可用的。这在语法上，称为“暂时性死区”（temporal dead zone，简称TDZ）。
+    if (true) {
+      // TDZ开始
+      tmp = 'abc'; // ReferenceError
+      console.log(tmp); // ReferenceError
+    
+      let tmp; // TDZ结束
+      console.log(tmp); // undefined
+    
+      tmp = 123;
+      console.log(tmp); // 123
+    }
+    上面代码中，在let命令声明变量tmp之前，都属于变量tmp的“死区”。
+    ------------------------
+    typeof x; // ReferenceError
+    let x;
+    上面代码中，变量x使用let命令声明，所以在声明之前，都属于x的“死区”，只要用到该变量就会报错。因此，typeof运行时就会
+    抛出一个ReferenceError。
+    
+    作为比较，如果一个变量根本没有被声明，使用typeof反而不会报错。
+    typeof undeclared_variable // "undefined"
+    ----------------------------------
+    let b = 1;
+    function test4() {
+        console.log(b);  //报错 Uncaught ReferenceError: b is not defined
+        let b = 2;
+    }
+    test4()

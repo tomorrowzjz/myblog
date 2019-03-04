@@ -292,7 +292,68 @@
       relative: 生成相对定位的元素，相对于其正常位置进行定位。
       static :	默认值。没有定位，元素出现在正常的流中
       inherit :	规定应该从父元素继承 position 属性的值。
-    
+## addEventLisenter
+    使用 addEventListener 函数来监听事件时，第三个参数设置为 false，这样监听事件时只会监听冒泡阶段发生的事件。
+         IE 浏览器不支持在捕获阶段监听事件，为了统一而设置的，毕竟 IE 浏览器的份额是不可忽略的。
+## 停止事件冒泡（stopPropagation）
+    element.addEventListener('click', function(event) {
+        event.stopPropagation();
+    }, false);
+##IE 下绑定事件
+  在 IE 下面绑定一个事件监听，在 IE9- 无法使用标准的 addEventListener 函数，而是使用自家的 attachEvent，具体用法：
+  
+  element.attachEvent(<event-name>, <callback>);
+##IE 中 Event 对象需要注意的地方
+  IE 中往回调函数中传递的事件对象与标准也有一些差异，你需要使用 window.event 来获取事件对象。所以你通常会写出下面代码来获取事件对象：
+  
+  event = event || window.event
+  此外还有一些事件属性有差别，比如比较常用的 event.target 属性，IE 中没有，而是使用 event.srcElement 来代替。如果你的回调函数需要处理触发事件的节点，那么需要写：
+  
+  node = event.srcElement || event.target;
+## window 的 load 事件，当页面内所有资源全部加载完成之后就会触发。
+
+## 节流和防抖
+使用函数 throttle 或者 debounce 技巧来进行优化，throttle 方法大体思路就是在某一段时间内无论多次调用，只执行一次函数
+，到达时间就执行；debounce 方法大体思路就是在某一段时间内等待是否还会重复调用，如果不会再调用，就执行函数，如果还有重
+复调用，则不执行继续等待。
+
+##js自定义事件
+
+使用自定义事件需要注意兼容性问题，而使用 jQuery 就简单多了：
+
+// 绑定自定义事件
+$(element).on('myCustomEvent', function(){});
+
+// 触发事件
+$(element).trigger('myCustomEvent');
+
+##调用构造函数new一个对象实际上会经历以下 4 个步骤：
+ (1) 创建一个新对象；
+ (2) 将构造函数的作用域赋给新对象（因此 this 就指向了这个新对象）； 
+ (3) 执行构造函数中的代码（为这个新对象添加属性）； 
+ (4) 返回新对象。
+## Immutable
+Immutable Data 就是一旦创建，就不能再被更改的数据。对 Immutable 对象的任何修改或添加删除操作都会返回一个新的 Immutable
+ 对象。Immutable 实现的原理是 Persistent Data Structure（持久化数据结构），也就是使用旧数据创建新数据时，要保证旧数据同
+ 时可用且不变。同时为了避免 deepCopy 把所有节点都复制一遍带来的性能损耗，Immutable 使用了Structural Sharing（结构共享）
+ ，即如果对象树中一个节点发生变化，只修改这个节点和受它影响的父节点，其它节点则进行共享
+ 
+ 
+ ## ES5继承的六种方式
+ 
+ 待补充？？？
+ 
+ 
+ 
+ ## 什么是CSS Modules？
+    > import styles from "./styles.css";
+      
+      element.innerHTML = 
+          `<h1 class="${styles.title}">
+              An example heading
+            </h1>`;
+
+
 
 
     
