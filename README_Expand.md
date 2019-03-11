@@ -352,6 +352,19 @@ Immutable Data 就是一旦创建，就不能再被更改的数据。对 Immutab
           `<h1 class="${styles.title}">
               An example heading
             </h1>`;
+## vue keep-alive
+    <!-- 失活的组件将会被缓存！-->
+    <keep-alive>
+     <component v-bind:is="currentTabComponent"></component>
+   </keep-alive>
+## 由于 JavaScript 的限制，Vue 不能检测以下变动的数组：
+   
+   当你利用索引直接设置一个项时，例如：vm.items[indexOfItem] = newValue
+   当你修改数组的长度时，例如：vm.items.length = newLength
+## jQuery mouseover与mouseenter的区别
+在我们的页面中经常会用到mouseover与mouseout事件来给页面添加更好的渲染效果，但如果触发mouseover事件的元素有子元素的话，
+会造成闪烁的效果，看着很不舒服，这是因为mouseover与mouseout不论鼠标指针穿过被选元素或其子元素，都会触发。而mouseenter
+与mouseleave只有在鼠标指针穿过被选元素时，才会触发 mouseenter 事件。
 
 
 

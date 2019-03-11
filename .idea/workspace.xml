@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2d587348-fff6-4046-be25-ceb1f2318e77" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README_Expand.md" afterPath="$PROJECT_DIR$/README_Expand.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="195">
+              <first_editor relative-caret-position="450">
                 <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="19" />
                 <folding>
                   <marker date="1551683306858" expanded="true" signature="3039:3055" ph="{...}" />
@@ -38,8 +37,8 @@
         <entry file="file://$PROJECT_DIR$/README_Expand.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="537">
-                <caret line="353" column="19" lean-forward="false" selection-start-line="353" selection-start-column="19" selection-end-line="353" selection-end-column="19" />
+              <first_editor relative-caret-position="218">
+                <caret line="363" column="33" lean-forward="false" selection-start-line="363" selection-start-column="33" selection-end-line="363" selection-end-column="33" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -51,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/createObj.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-83">
+              <first_editor relative-caret-position="2700">
                 <caret line="108" column="8" lean-forward="false" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="8" />
                 <folding />
               </first_editor>
@@ -184,7 +183,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -199,7 +198,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -333,18 +332,20 @@
       <workItem from="1549867231465" duration="4368000" />
       <workItem from="1551172325342" duration="2876000" />
       <workItem from="1551337677282" duration="2336000" />
-      <workItem from="1551682751561" duration="3666000" />
+      <workItem from="1551682751561" duration="3715000" />
+      <workItem from="1551792115878" duration="2708000" />
+      <workItem from="1552268795456" duration="77000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="281640000" />
+    <option name="totallyTimeSpent" value="284474000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.120469086" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12260128" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -374,26 +375,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding>
-              <marker date="1551683306858" expanded="true" signature="3039:3055" ph="{...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/xhs.json" />
     <entry file="file://$PROJECT_DIR$/test.html" />
     <entry file="file://$PROJECT_DIR$/data.json" />
@@ -497,7 +478,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="195">
+          <first_editor relative-caret-position="450">
             <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="19" />
             <folding>
               <marker date="1551683306858" expanded="true" signature="3039:3055" ph="{...}" />
@@ -510,7 +491,7 @@
     <entry file="file://$PROJECT_DIR$/createObj.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-83">
+          <first_editor relative-caret-position="2700">
             <caret line="108" column="8" lean-forward="false" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="8" />
             <folding />
           </first_editor>
@@ -518,11 +499,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Desktop/jquery-3.3.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/bb.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="54" column="44" lean-forward="true" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README_Expand.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="537">
-            <caret line="353" column="19" lean-forward="false" selection-start-line="353" selection-start-column="19" selection-end-line="353" selection-end-column="19" />
+          <first_editor relative-caret-position="218">
+            <caret line="363" column="33" lean-forward="false" selection-start-line="363" selection-start-column="33" selection-end-line="363" selection-end-column="33" />
             <folding />
           </first_editor>
           <second_editor />
