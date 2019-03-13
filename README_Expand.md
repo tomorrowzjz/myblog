@@ -366,6 +366,29 @@ Immutable Data 就是一旦创建，就不能再被更改的数据。对 Immutab
 会造成闪烁的效果，看着很不舒服，这是因为mouseover与mouseout不论鼠标指针穿过被选元素或其子元素，都会触发。而mouseenter
 与mouseleave只有在鼠标指针穿过被选元素时，才会触发 mouseenter 事件。
 
+## 数组变异方法  慎用
+   eg: pop 会改变元素组 发生未知bug
+
+##这种方式是直接使用数组的indexOf方法来判断，如果元素存在于数组中，那么返回元素在数组中的下标值，如果不存在，那么返回-1，
+注意indexOf是区分大小写的，字母O必需大写，不然是会报错的，另外，该方法在某些版本的IE中是不起作用的，因此在使用之前需要
+做一下判断，修改后的代码如下所示：
+
+复制代码
+/**
+ * 使用indexOf判断元素是否存在于数组中
+ * @param {Object} arr 数组
+ * @param {Object} value 元素值
+ */
+function isInArray3(arr,value){
+    if(arr.indexOf&&typeof(arr.indexOf)=='function'){
+        var index = arr.indexOf(value);
+        if(index >= 0){
+            return true;
+        }
+    }
+    return false;
+}
+
 
 
 
