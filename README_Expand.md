@@ -389,6 +389,59 @@ function isInArray3(arr,value){
     return false;
 }
 
+##过渡transition的触发有三种方式，分别是伪类触发、媒体查询触发和javascript触发。
+  其中常用伪类触发包括:hover、:focus、:active等
+  
+  javascript触发：
+  ><style>
+       .test {
+           background-color: red;
+           width: 500px;
+       }
+       .tran{
+           transition: all 1s ease;
+           width: 300px;
+       }
+   </style>
+   <body>
+   <div>
+       <div class="test">test</div>
+   </div>
+   <script>
+       let test = document.querySelector('.test');
+       test.onclick = function(){
+         test.classList.add('tran');
+       }
+   </script>
+   
+   伪类触发
+   >.test{
+        height: 100px;
+        width: 100px;
+        background-color: pink;
+        /*代表持续时间为1s，延迟时间为2s*/
+        transition: 1s 2s;
+    }    
+    .test:hover{
+        width: 500px;
+    }
+    <div class="test"></div>
+## @keyframes 动画名box-3d{
+    100%{
+        transform: rotateX(360deg) rotateY(360deg);
+    }
+  }
+  
+  在使用的地方 .box{animation: box-3d 5s infinite ;}
+  
+##function setName(obj) { 
+   obj.name = "Nicholas"; 
+   obj = new Object(); 
+   obj.name = "Greg"; 
+  } 
+  var person = new Object(); 
+  setName(person); 
+  alert(person.name); 
 
 
 
