@@ -443,6 +443,9 @@ function isInArray3(arr,value){
   setName(person); 
   alert(person.name); 
 
+## vue 
+   可以用 of 替代 in 作为分隔符，因为它是最接近 JavaScript 迭代器的语法：
+
 
 
     
