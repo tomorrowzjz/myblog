@@ -458,7 +458,34 @@ function isInArray3(arr,value){
         平台表格列表
 ## promise 每次使用 then方法都会返回一个新的promise实例
 
-
+## js 自带base64加密解密函数
+   window.btoa("test")；//"dGVzdA=="
+   window.atob("dGVzdA==");//"test"
+## vue elementui  自定义校验有时执行有时不执行，
+        let validCardNo = (rule, value, callback) => {
+              if (!value) {
+                return callback(new Error('身份证号不能为空'));
+              }
+              if (!Number.isInteger(parseInt(value))) {
+                callback(new Error('请输入数字'));
+              } else if(!isCardNo(value)){
+                callback(new Error('身份证号码为15位或者18位'));
+              }else {
+                callback()//必须有不然当校验成功的时候不执行 submit 校验
+              }
+            };
+##   findIndex
+        var ages = [3, 10, 18, 20];
+         
+        function checkAdult(age) {
+            return age >= 18;
+        }
+         
+        function myFunction() {
+            document.getElementById("demo").innerHTML = ages.findIndex(checkAdult);
+        }
+        findIndex() 方法返回传入一个测试条件（函数）符合条件的数组第一个元素位置。找不到返回-1
+        findIndex() 方法为数组中的每个元素都调用一次函数执行
     
     
     
