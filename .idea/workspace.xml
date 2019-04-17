@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d587348-fff6-4046-be25-ceb1f2318e77" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README_Expand.md" afterPath="$PROJECT_DIR$/README_Expand.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,11 +37,23 @@
         <entry file="file://$PROJECT_DIR$/README_Expand.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="517">
-                <caret line="486" column="58" lean-forward="false" selection-start-line="486" selection-start-column="58" selection-end-line="486" selection-end-column="58" />
+              <first_editor relative-caret-position="442">
+                <caret line="563" column="57" lean-forward="false" selection-start-line="563" selection-start-column="57" selection-end-line="563" selection-end-column="57" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rem.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/rem.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="70" selection-end-column="21" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -144,6 +157,7 @@
         <option value="$USER_HOME$/Desktop/金猪赐福可印刷背景墙_设计页－稿定设计_files/manifest.53af7c60.js" />
         <option value="$PROJECT_DIR$/createObj.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$USER_HOME$/Desktop/rem.js" />
         <option value="$PROJECT_DIR$/README_Expand.md" />
       </list>
     </option>
@@ -182,6 +196,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -196,13 +212,11 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../testproject/vue-music" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="JavaScriptPreferStrict" value="false" />
@@ -337,17 +351,18 @@
       <workItem from="1552268795456" duration="3024000" />
       <workItem from="1552533452292" duration="3501000" />
       <workItem from="1552732639030" duration="1230000" />
-      <workItem from="1554977371041" duration="6220000" />
+      <workItem from="1554977371041" duration="6866000" />
+      <workItem from="1555334388418" duration="8622000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="298372000" />
+    <option name="totallyTimeSpent" value="307640000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12579957" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12686567" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -377,7 +392,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/xhs.json" />
     <entry file="file://$PROJECT_DIR$/test.html" />
     <entry file="file://$PROJECT_DIR$/data.json" />
     <entry file="file://$USER_HOME$/Desktop/fa上衣.json" />
@@ -485,11 +499,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Desktop/rem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="70" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README_Expand.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="517">
-            <caret line="486" column="58" lean-forward="false" selection-start-line="486" selection-start-column="58" selection-end-line="486" selection-end-column="58" />
+          <first_editor relative-caret-position="442">
+            <caret line="563" column="57" lean-forward="false" selection-start-line="563" selection-start-column="57" selection-end-line="563" selection-end-column="57" />
             <folding />
           </first_editor>
           <second_editor />

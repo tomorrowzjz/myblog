@@ -447,7 +447,7 @@ function isInArray3(arr,value){
    可以用 of 替代 in 作为分隔符，因为它是最接近 JavaScript 迭代器的语法：
    
 ## vuex 兄弟组件传值，当一个组件改变vuex里面的值后，一般是数组，并且整体替换， 另一个组件里面用到这个值的地方自动改为这
-个值
+个值(必须深拷贝整体替换,arr,Object)
 
 ## vue 子组件在其生命用到父组件异步取回来的值时，回取不到值，一般在父组件调用子组件的地方加v-if  或者在子组件里面添加watch
     监听其值,当改变时重新复制
@@ -486,6 +486,82 @@ function isInArray3(arr,value){
         }
         findIndex() 方法返回传入一个测试条件（函数）符合条件的数组第一个元素位置。找不到返回-1
         findIndex() 方法为数组中的每个元素都调用一次函数执行
+## vue 组件复用  会默认复用旧组件，（也就是不会执行子组件的生命周期方法，想让他执行，可以给组件一个唯一的id也就是key）
+
+## three.js 绘制3维场景   
+   3d.js D3 的全称是（Data-Driven Documents），顾名思义可以知道是一个被数据驱动的文档。一个 JavaScript 的函数库，
+
+## nrm 切换源的npm包
+
+##   
+{
+"all_tp":[
+    {
+        "id":1000,
+        "name":"淘宝"
+    },
+    {
+        "id":1001,
+        "name":"天猫"
+    },
+    {
+        "id":1003,
+        "name":"京东"
+    },
+    {
+        "id":1004,
+        "name":"拼多多"
+    }
+],
+"tps":[
+    {
+        "id":1003,
+        "name":"京东"
+    }
+],
+}
+
+//输出结果  dialogTpArr = [true,true,false,true];
+
+this.userinfo.all_tp.map((ele,ind)=>{
+   this.userinfo.tps.map((e,index)=>{
+     if (ele.id == e.id) {
+       ele.innerflag = true;
+     }
+   });
+ })
+ 
+ this.userinfo.all_tp.map((ele,ind)=>{
+   if (ele.innerflag) {
+     this.dialogTpArr.push(true)
+   }else {
+     this.dialogTpArr.push(false)
+   }
+
+ })
+ 
+ ##  定时关闭浏览器窗口
+       function closewin(){
+               if (navigator.userAgent.indexOf("Firefox") != -1 || navigator.userAgent.indexOf("Chrome") !=-1) {
+                 window.location.href="about:blank";
+                 window.close();
+               } else {
+                 window.opener = null;
+                 window.open("", "_self");
+                 window.close();
+               }
+       
+             }
+             setTimeout('closewin();',5000);
+  ##   this.$router指路由器，this.$route指当前路由
+  
+  ## 项目中不要使用魔法字符串
+    const CLS_ON = 'on';
+    const CLS_HALF = 'half';
+    const CLS_OFF = 'off';
+ ##  
+ 所有 JavaScript 对象都有 __proto__ 属性，只有 Object.prototype.__proto__ === null ；
+ 构造函数的 prototype 属性指向它的原型对象，而构造函数实例的 __proto__ 属性也指向该原型对象
     
     
     
