@@ -562,6 +562,11 @@ this.userinfo.all_tp.map((ele,ind)=>{
  ##  
  所有 JavaScript 对象都有 __proto__ 属性，只有 Object.prototype.__proto__ === null ；
  构造函数的 prototype 属性指向它的原型对象，而构造函数实例的 __proto__ 属性也指向该原型对象
+ 
+ ## document.body.scrollTop || document.documentElement.scrollTop为0
+    当前滚动条位置就是在顶部。
+    没有产生滚动。
+    你当前的滚动条不再属于 html 或者 body。
     
     
     
