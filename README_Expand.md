@@ -567,6 +567,17 @@ this.userinfo.all_tp.map((ele,ind)=>{
     当前滚动条位置就是在顶部。
     没有产生滚动。
     你当前的滚动条不再属于 html 或者 body。
+  ## dpr  设备像素比 device pixel ratio
+  
+  ##处理rem以及vm的px2rem以及px2viewport     rem  vw vh dp
+  
+  
+  ## Vue.extend( options )
+    使用基础 Vue 构造器，创建一个“子类”。参数是一个包含组件选项的对象。
+    
+  ## 扩展运算符 ...
+  
+    扩展运算符对对象实例的拷贝属于一种浅拷贝。
     
     
     
