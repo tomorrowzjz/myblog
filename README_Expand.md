@@ -578,6 +578,47 @@ this.userinfo.all_tp.map((ele,ind)=>{
   ## 扩展运算符 ...
   
     扩展运算符对对象实例的拷贝属于一种浅拷贝。
+ 
+ ## webpack 4.0
+ //webpack4.0不支持该写法
+ new webpack.optimize.UglifyJsPlugin({
+       compress: {
+         warnings: false,
+         drop_debugger: true, 
+         drop_console: true   
+       },
+       sourceMap: config.build.productionSourceMap,
+       parallel: true
+     }),
+  -------------------------------------------
+  //换为这种写法
+    optimization: {
+       minimizer: [
+                new UglifyJSPlugin({
+                    uglifyOptions: {
+                        output: {
+                            comments: false
+                        },
+                        compress: {
+                            warnings: false,
+                            drop_debugger: true,
+                            drop_console: true
+                        }
+                    }
+                }),
+            ]
+      },
+      
+##  页面可编辑：contentEditable   API 可以使页面所有元素成为可编辑状态，使浏览器变成你的编辑器。
+    data:text/html, <html contenteditable>
+    
+##  根据CSS3规范，视口单位主要包括以下4个：
+          1.vw：1vw等于视口宽度的1%。
+          2.vh：1vh等于视口高度的1%。
+          3.vmin：选取vw和vh中最小的那个。
+          4.vmax：选取vw和vh中最大的那个。
+          兼容性问题(在移动端 iOS 8 以上以及 Android 4.4 以上获得支持，并且在微信 x5 内核中也得到完美的全面支持)
+
     
     
     
