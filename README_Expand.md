@@ -618,6 +618,9 @@ this.userinfo.all_tp.map((ele,ind)=>{
           3.vmin：选取vw和vh中最小的那个。
           4.vmax：选取vw和vh中最大的那个。
           兼容性问题(在移动端 iOS 8 以上以及 Android 4.4 以上获得支持，并且在微信 x5 内核中也得到完美的全面支持)
+          
+## nuxt asyncData()
+    由于asyncData方法是在组件 初始化 前被调用的，所以在方法内是没有办法通过 this 来引用组件的实例对象。 
 
     
     
