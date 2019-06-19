@@ -621,7 +621,74 @@ this.userinfo.all_tp.map((ele,ind)=>{
           
 ## nuxt asyncData()
     由于asyncData方法是在组件 初始化 前被调用的，所以在方法内是没有办法通过 this 来引用组件的实例对象。 
-
     
+## Promise
+    跟传统的try/catch代码块不同的是，如果没有使用catch方法指定错误处理的回调函数，
+    Promise 对象抛出的错误不会传递到外层代码，即不会有任何反应。
+    
+## async await
+    async function f() {
+     await Promise.reject('出错了');
+     await Promise.resolve('hello world'); // 不会执行
+   }
+   
+## 去重
+// 去除数组的重复成员
+[...new Set(array)]//array只能是简单类型,复杂类型不生效  对象总是不相等的
+### Array.from方法可以将 Set 结构转为数组。
+### function dedupe(array) {
+    return Array.from(new Set(array));
+  }
+  dedupe([1, 1, 2, 3]) // [1, 2, 3]
+  
+##  map
+JavaScript 的对象（Object），本质上是键值对的集合（Hash 结构），但是传统上只能用字符串当作键。
+为了解决这个问题，ES6 提供了 Map 数据结构。
+
+
+##  允许长单词换行到下一行：
+    p.test {word-wrap:break-word;}
+    
+    resize:none;   textarea  规定用户是否可以缩放
+##   find  findIndex  includes
+var node = tempNode.children.find(e => e.value == name);
+
+数组实例的find方法，用于找出第一个符合条件的数组成员。它的参数是一个回调函数，所有数组成员依次执行该回调函数，
+直到找出第一个返回值为true的成员，然后返回该成员。如果没有符合条件的成员，则返回undefined。
+
+数组实例的findIndex方法的用法返回第一个符合条件的数组成员的位置，如果所有成员都不符合条件，则返回-1。
+
+Array.prototype.includes方法返回一个布尔值，表示某个数组是否包含给定的值，与字符串的includes方法类似。
+
+
+## delete obj.name //删除object对象的name属性
+
+##  vue-select-tree 
+
+https://vue-treeselect.js.org/#vuex-support
+
+## vue $route 可以直接用在template的dom上 
+
+## vue 想要在computed属性改变是触发事件，事件里面不能改变computed属性，不然造成循环， 可以封装一个子组件 在子组件生命周
+期里面操作
+
+
+## 递归   （操作的每一步都是为了下一步最终的递归--操作最小单元）
+
+## vue 当页面从#/a/1变为#/a/2 时组件会被复用 不会重新执行生命周期方法，  可以使用 watch 监听 $route 或者  给组件加一个key
+    
+##  requestAnimationFrame 是浏览器提供的一个专注于实现动画的 API，
+
+##  vue draggable  拖动不生效 -- 数据必须是data里面的，computed里面的可能出现问题
+
+## 不阻止ondragover默认事件就无法触发ondrop函数
+
+
+## transform: rotate(90deg);
+   	transform-origin:100% 100%;   //设定中心位置的初始位置
+   	
+## arguments不是数组，要先转化一下成为数组 [].slice.call(arguments);
+
+## forEach 无法break和return
     
     
