@@ -690,5 +690,13 @@ https://vue-treeselect.js.org/#vuex-support
 ## arguments不是数组，要先转化一下成为数组 [].slice.call(arguments);
 
 ## forEach 无法break和return
+
+## promise  调用resolve或reject并不会终结 Promise 的参数函数的执行。
+> new Promise((resolve, reject) => {
+    return resolve(1);
+    // 后面的语句不会执行
+    console.log(2);
+  })
+ ### 如果没有使用catch方法指定错误处理的回调函数，Promise 对象抛出的错误不会传递到外层代码，即不会有任何反应。
     
     
