@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="../js/jquery-3.3.1.min.js"></script>
+  <link rel="stylesheet" href="../css/reset.css">
+  <style>
+    html,body{
+      height: 100%;
+      width: 100%;
+    }
+    a{
+      text-decoration: none;
+    }
+    .app{
+      display: flex;
+    }
+    .left{
+      width: 200px;
+      height: 100%;
+      border: 1px solid #ccc;
+    }
+    .left ul li{
+      text-align: center;
+      padding: 10px;
+      border-bottom: 1px solid #ccc;
+    }
+    .right{
+      width: calc(100% - 200px);
+    }
+    #myView{
+      margin: 20px;
+    }
+  </style>
+
+</head>
+<body>
+hash
+<div class="hash">
+  <div class="app">
+    <div class="left slider">
+      <ul>
+        <li><a href="#/myhome">home</a></li>
+      </ul>
+    </div>
+    <div class="right">
+      <div class="nav"></div>
+      <div id="myView" class="main"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+
+  $(function () {
+    let menuArr = ['home','search','about','main','zjz'];
+    let str = '';
+    menuArr.forEach(e=>{
+      str += `<li><a href="#/${e}">${e}</a></li>`
+    })
+    $('.hash>.app>.left>ul').html(str)
+    onHashChange();
+    $(window).on('hashchange', onHashChange)
+    function onHashChange() {
+      let item = menuArr.find(e=>{
+        return e == location.hash.split('/')[1]
+      })
+      if (item) {
+        $('#myView').text(item)
+      }else {
+        $('#myView').text('404')
+      }
+    }
+  })
+
+</script>
+</body>
+</html>

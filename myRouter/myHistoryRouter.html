@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="../js/jquery-3.3.1.min.js"></script>
+  <link rel="stylesheet" href="../css/reset.css">
+  <style>
+    html,body{
+      height: 100%;
+      width: 100%;
+    }
+    a{
+      text-decoration: none;
+    }
+    .app{
+      display: flex;
+    }
+    .left{
+      width: 200px;
+      height: 100%;
+      border: 1px solid #ccc;
+    }
+    .left ul li{
+      text-align: center;
+      padding: 10px;
+      border-bottom: 1px solid #ccc;
+    }
+    .right{
+      width: calc(100% - 200px);
+    }
+    #myView{
+      margin: 20px;
+    }
+  </style>
+
+</head>
+<body>
+history
+<div class="history">
+  <div class="app">
+    <div class="left slider">
+      <ul>
+        <li><a href="/myhome">home</a></li>
+      </ul>
+    </div>
+    <div class="right">
+      <div class="nav"></div>
+      <div id="myHistoryView" class="main"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+
+  $(function () {
+    let menuArr = ['home', 'search', 'about', 'main', 'zjz'];
+    let str = '';
+    menuArr.forEach(e => {
+      str += `<li><a href="/${e}">${e}</a></li>`
+    })
+    $('.history>.app>.left>ul').html(str)
+    $(window).on('popstate', onPopState);
+    $('a[href]').on('click',function (e) {
+      console.log(this);
+      e.preventDefault();
+//    $(this).attr()
+      onPopState($(this).attr('href'))
+
+    })
+    function onPopState(e) {
+      if(e){
+        history.pushState(null, '', e)
+        $('#myHistoryView').text(e)
+      }
+      console.log(this);
+    }
+  })
+
+</script>
+</body>
+</html>
