@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    body{
+      font-size: 0;//解决display:inline-block;有间隙问题
+    }
+    .header,.footer{
+      font-size: 16px;
+      height: 50px;
+      background-color: #cccccc;
+    }
+    .content{
+      /*display: flex;*/
+    }
+    .left{
+      font-size: 16px;
+      width: 50px;
+      background-color: #ff0000;
+      display: inline-block;
+    }
+    .right{
+      font-size: 16px;
+      width: 50px;
+      background-color: #1caeff;
+      display: inline-block;
+    }
+    .main{
+      font-size: 16px;
+      display: inline-block;
+      background-color: aqua;
+      width: calc(100% - 100px)
+    }
+  </style>
+</head>
+<body>
+<div class="header">
+  header
+</div>
+<div class="content">
+
+  <div class="left">left</div>
+  <div class="main">
+    main
+  </div>
+  <div class="right">right</div>
+</div>
+<div class="footer">
+  footer
+</div>
+</body>
+</html>

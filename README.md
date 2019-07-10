@@ -240,3 +240,14 @@
         let b = 2;
     }
     test4()
+## vue filter 中this指向的不是vue实例 
+
+## img onload 事件this指向问题
+     let firstImg = new Image();
+      firstImg.src = url
+      let that = this
+      firstImg.onload = function() {
+        //this指向当前元素即 img标签
+        console.log(this);
+        that.enlargeUrl = url
+      }
