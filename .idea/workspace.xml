@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d587348-fff6-4046-be25-ceb1f2318e77" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layout/calc.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layout/flex.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layout/双飞翼.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layout/圣杯.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layout/总结.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/promise.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/center.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/float.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,17 +19,37 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="459">
+              <first_editor relative-caret-position="295">
                 <caret line="249" column="27" lean-forward="false" selection-start-line="249" selection-start-column="27" selection-end-line="249" selection-end-column="27" />
                 <folding>
                   <marker date="1562728903078" expanded="true" signature="3039:3055" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="float.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/example/float.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="48" column="12" lean-forward="true" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="center.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/center.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-125">
+              <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="65" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -114,26 +129,6 @@
                 <folding />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myHashRouter.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myRouter/myHashRouter.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myHistoryRouter.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myRouter/myHistoryRouter.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -238,6 +233,8 @@
         <option value="$PROJECT_DIR$/layout/flex.html" />
         <option value="$PROJECT_DIR$/layout/calc.html" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/example/center.html" />
+        <option value="$PROJECT_DIR$/example/float.html" />
       </list>
     </option>
   </component>
@@ -297,7 +294,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
+              <option name="myItemId" value="example" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -466,12 +463,12 @@
       <workItem from="1561204415994" duration="903000" />
       <workItem from="1561370694436" duration="996000" />
       <workItem from="1561435526226" duration="3178000" />
-      <workItem from="1562644119387" duration="3322000" />
+      <workItem from="1562644119387" duration="6795000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="377307000" />
+    <option name="totallyTimeSpent" value="380780000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -507,8 +504,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/json数据/32_17.json" />
-    <entry file="file://$USER_HOME$/Desktop/json数据/32_18.json" />
     <entry file="file://$USER_HOME$/Desktop/json数据/bu/xab.json" />
     <entry file="file://$USER_HOME$/Desktop/json数据/bu/fa上衣.json" />
     <entry file="file://$USER_HOME$/Desktop/json数据/32_171.json" />
@@ -714,13 +709,29 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="459">
+          <first_editor relative-caret-position="295">
             <caret line="249" column="27" lean-forward="false" selection-start-line="249" selection-start-column="27" selection-end-line="249" selection-end-column="27" />
             <folding>
               <marker date="1562728903078" expanded="true" signature="3039:3055" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/center.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-125">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="65" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/float.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="48" column="12" lean-forward="true" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
