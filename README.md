@@ -251,3 +251,6 @@
         console.log(this);
         that.enlargeUrl = url
       }
+      
+## box-sizing:content-box /*（标准盒模型）*/ 标准盒模型中， width = 内容的宽度、height = 内容的高度
+   box-sizing:border-box /*（IE盒模型）*/  width = border + padding + 内容的宽度,height = border + padding + 内容的高度
