@@ -254,3 +254,14 @@
       
 ## box-sizing:content-box /*（标准盒模型）*/ 标准盒模型中， width = 内容的宽度、height = 内容的高度
    box-sizing:border-box /*（IE盒模型）*/  width = border + padding + 内容的宽度,height = border + padding + 内容的高度
+   
+## nodeType 属性返回以数字值返回指定节点的节点类型。  //document.body.nodeType;
+   
+   如果节点是元素节点，则 nodeType 属性将返回 1。
+   
+   如果节点是属性节点，则 nodeType 属性将返回 2。
+   
+   
+## forEach 只支持同步代码。所有不能使用async await
+
+## webpack 的 vue-loader 事先把模板编译成 render函数。
