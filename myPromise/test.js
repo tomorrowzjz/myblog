@@ -1,10 +1,10 @@
 let Promise = require('./promise')
 let p = new Promise((resolve,reject)=>{
-  // setTimeout(()=>{
+  setTimeout(()=>{
     reject('err')
-  // },1000)
+  },1000)
   // throw new Error('test')
-  resolve('nihao');
+  // resolve('nihao');
 })
 p.then((data)=>{
   console.log(data);

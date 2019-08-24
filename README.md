@@ -265,3 +265,7 @@
 ## forEach 只支持同步代码。所有不能使用async await
 
 ## webpack 的 vue-loader 事先把模板编译成 render函数。
+
+## require 加载模块的时候是同步 
+    在一个 node 执行一个文件时，会给这个文件内生成一个 exports 和 module 对象，
+    而module又有一个 exports 属性。都指向一块{}内存区域。
