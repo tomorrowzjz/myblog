@@ -269,3 +269,33 @@
 ## require 加载模块的时候是同步 
     在一个 node 执行一个文件时，会给这个文件内生成一个 exports 和 module 对象，
     而module又有一个 exports 属性。都指向一块{}内存区域。
+    
+## 覆盖elementUI inputplaceholder
+
+  /deep/ .el-input__inner {
+      &::placeholder {
+          color: red;
+      }
+  
+      &::-webkit-input-placeholder {
+          /* WebKit browsers 适配谷歌 */
+          color: red;
+      }
+  
+      &:-moz-placeholder {
+          /* Mozilla Firefox 4 to 18 适配火狐 */
+          color: red;
+      }
+  
+      &::-moz-placeholder {
+          /* Mozilla Firefox 19+ 适配火狐 */
+          color: red;
+      }
+  
+      &:-ms-input-placeholder {
+          /* Internet Explorer 10+  适配ie*/
+          color: red;
+      }
+  }
+##  GraphQL
+    让客户端自己请求需要的数据
