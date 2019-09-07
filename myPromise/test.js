@@ -1,21 +1,22 @@
 let Promise = require('./promiseA+')
 let p = new Promise((resolve,reject)=>{
-  setTimeout(()=>{
+  // setTimeout(()=>{
     resolve('err1')
-  },1000)
+  // },1000)
   // throw new Error('test')
   // resolve('nihao');
 })
 p.then((res)=>{
-  return new Promise((resolve,reject)=>{
-    setTimeout(()=>{
-      resolve(res)
-    },1000)
-  }).then((zjzj)=>{
-    console.log('1'+zjzj);
-  },err=>{
-    console.log(err);
-  })
+  console.log(res);
+  // return new Promise((resolve,reject)=>{
+  //   setTimeout(()=>{
+  //     resolve(res)
+  //   },1000)
+  // }).then((zjzj)=>{
+  //   console.log('1'+zjzj);
+  // },err=>{
+  //   console.log(err);
+  // })
 },(err)=>{
   console.log(err);
   return 1
@@ -29,3 +30,4 @@ p.then((res)=>{
 },(err)=>{
   console.log(err);
 })
+console.log(11111111111);

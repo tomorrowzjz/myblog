@@ -709,5 +709,8 @@ https://vue-treeselect.js.org/#vuex-support
         F.prototype.constructor = F;
         return new F();
     }
+  ## 
+   Vue 框架就是一个典型的 MVVM 模型的框架。
+   Vue 框架其实就是起到 MVVM 模式中的 ViewModel 层的作用。
     
     
