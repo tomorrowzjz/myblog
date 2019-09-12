@@ -2,14 +2,16 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://F:/12月/label-admin-erp/src/api/login.js" description="&#10;export function validate_phone(data) {&#10;  return r..." line="37" />
+    <bookmark url="file://$PROJECT_DIR$/myMvvm/Watcher.js" line="0" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d587348-fff6-4046-be25-ceb1f2318e77" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myMvvm/Compile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myMvvm/Mvvm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myMvvm/Observer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myMvvm/Dep.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myMvvm/Watcher.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvvm.md" afterPath="$PROJECT_DIR$/mvvm.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myMvvm/Compile.js" afterPath="$PROJECT_DIR$/myMvvm/Compile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myMvvm/Observer.js" afterPath="$PROJECT_DIR$/myMvvm/Observer.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,39 +23,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="481">
-                <caret line="332" column="1" lean-forward="false" selection-start-line="332" selection-start-column="1" selection-end-line="332" selection-end-column="1" />
-                <folding>
-                  <marker date="1567396919322" expanded="true" signature="3039:3055" ph="{...}" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="promise.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/promise.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="350">
-                <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="README_Expand.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README_Expand.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="392">
+              <first_editor relative-caret-position="17825">
                 <caret line="713" column="41" lean-forward="false" selection-start-line="713" selection-start-column="41" selection-end-line="713" selection-end-column="41" />
                 <folding />
               </first_editor>
@@ -62,12 +36,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mvvm.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mvvm.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mvvm.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="50">
-                <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+              <first_editor relative-caret-position="175">
+                <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -88,18 +62,38 @@
       <file leaf-file-name="Observer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myMvvm/Observer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            <state relative-caret-position="229">
+              <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Compile.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Dep.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myMvvm/Dep.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Watcher.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myMvvm/Watcher.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Compile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myMvvm/Compile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            <state relative-caret-position="475">
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -192,8 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/Desktop/test.html" />
-        <option value="$USER_HOME$/Desktop/json数据/32_121_test.json" />
         <option value="$USER_HOME$/Desktop/新打标简单接口文档(3).txt" />
         <option value="$USER_HOME$/Desktop/images.json" />
         <option value="$USER_HOME$/Desktop/新打标简单接口文档(4).txt" />
@@ -239,10 +231,12 @@
         <option value="$PROJECT_DIR$/myPromise/promise.js" />
         <option value="$PROJECT_DIR$/myPromise/test.js" />
         <option value="$PROJECT_DIR$/README_Expand.md" />
-        <option value="$PROJECT_DIR$/mvvm.md" />
         <option value="$PROJECT_DIR$/myMvvm/Mvvm.js" />
         <option value="$PROJECT_DIR$/myMvvm/Observer.js" />
+        <option value="$PROJECT_DIR$/myMvvm/Dep.js" />
+        <option value="$PROJECT_DIR$/myMvvm/Watcher.js" />
         <option value="$PROJECT_DIR$/myMvvm/Compile.js" />
+        <option value="$PROJECT_DIR$/mvvm.md" />
       </list>
     </option>
   </component>
@@ -280,8 +274,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -324,6 +316,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -520,17 +514,19 @@
       <workItem from="1566285991147" duration="14332000" />
       <workItem from="1566783466688" duration="7721000" />
       <workItem from="1567388575182" duration="26732000" />
-      <workItem from="1567753693121" duration="6643000" />
+      <workItem from="1567753693121" duration="10422000" />
+      <workItem from="1568254271932" duration="4164000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="451064000" />
+    <option name="totallyTimeSpent" value="459007000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1652452" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16684435" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -560,14 +556,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests.html" />
-    <entry file="file://$USER_HOME$/Desktop/ps.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/vue.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -717,7 +705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -725,7 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -733,7 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="1" column="2" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -741,7 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -776,14 +760,12 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="593">
           <caret line="36" column="51" lean-forward="false" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -812,7 +794,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="350">
             <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -821,7 +802,7 @@
     <entry file="file://$PROJECT_DIR$/README_Expand.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="392">
+          <first_editor relative-caret-position="17825">
             <caret line="713" column="41" lean-forward="false" selection-start-line="713" selection-start-column="41" selection-end-line="713" selection-end-column="41" />
             <folding />
           </first_editor>
@@ -853,21 +834,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mvvm.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="50">
-            <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/myMvvm/Observer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myMvvm/Observer.js">
+    <entry file="file://$PROJECT_DIR$/myMvvm/Watcher.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="125">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myMvvm/Dep.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -882,9 +868,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myMvvm/Compile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        <state relative-caret-position="475">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvvm.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="175">
+            <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
