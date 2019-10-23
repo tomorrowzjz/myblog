@@ -342,5 +342,21 @@
 git rebase --abort//取消git rebase
 
 //todo rebase总结  cli3总结 
+
+## tabindex
+    tabindex：全局属性。指示其元素是否可以聚焦（获得焦点），以及它是否/在何处参与顺序键盘导航
+    （因通常使用tab键操作,顾因此得名）。
+    
+##  重定向浏览器不会拦截（不会拦截）
+    btn.addEventListener('click', function () {
+        // 打开页面
+        let newWin = window.open('loading page');
+
+        ajax().done(function() {
+            // 重定向到目标页面
+            newWin.location.href = 'target url';
+        });
+    });
+        
   
   
