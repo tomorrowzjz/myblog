@@ -357,6 +357,31 @@ git rebase --abort//取消git rebase
             newWin.location.href = 'target url';
         });
     });
-        
+## nginx 
+    重启 service nginx reload
+    nginx 本地测试 curl 127.0.0.1:8088
+    
+##vue cli3 开启gzip
+    1. 安装 compression-webpack-plugin 插件   //npm i -D compression-webpack-plugin
+    2.> module.exports = {
+            configureWebpack: config => {
+                // 开发环境不需要gzip
+                if (process.env.NODE_ENV !== 'production') return
+                config.plugins.push(
+                    new CompressionWebpackPlugin({
+                        // 正在匹配需要压缩的文件后缀
+                        test: /\.(js|css|svg|woff|ttf|json|html)$/,
+                        // 大于10kb的会压缩
+                        threshold: 10240
+                        // 其余配置查看compression-webpack-plugin
+                    })
+                )
+            }
+        }
+     3.在nginx配置文件中的http节点下加
+         gzip on;
+         gzip_types text/plain application/x-javascript application/javascript text/css application/xml text/javascript application/x-httpd-php image/jpeg image/gif image/png;
+     4 重启 nginx    service nginx reload
+                 
   
   
