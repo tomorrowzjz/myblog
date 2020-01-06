@@ -712,5 +712,16 @@ https://vue-treeselect.js.org/#vuex-support
   ## 
    Vue 框架就是一个典型的 MVVM 模型的框架。
    Vue 框架其实就是起到 MVVM 模式中的 ViewModel 层的作用。
+   
+ ## 全灰，原来仅需一行css代码——css 滤镜
+ filter: grayscale(100%);  
+ 
+ ## 
+    Linux环境下，怎么确定Nginx是以那个config文件启动的？
+    
+    输入命令行： ps  -ef | grep nginx
+    
+    master process 后面的就是 nginx的目录。
+    
     
     

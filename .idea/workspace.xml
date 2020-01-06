@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/myMvvm/Watcher.js" line="0" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="2d587348-fff6-4046-be25-ceb1f2318e77" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/docker.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinuxData.md" beforeDir="false" afterPath="$PROJECT_DIR$/LinuxData.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README_Expand.md" beforeDir="false" afterPath="$PROJECT_DIR$/README_Expand.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,15 +32,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
               <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dep.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myMvvm/Dep.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -89,24 +78,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinuxData.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LinuxData.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinuxData.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="590">
-                <caret line="52" column="57" selection-start-line="52" selection-start-column="57" selection-end-line="52" selection-end-column="57" />
+              <first_editor relative-caret-position="902">
+                <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README_Expand.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="docker.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="132">
+                <caret line="6" column="80" selection-start-line="6" selection-start-column="80" selection-end-line="6" selection-end-column="80" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README_Expand.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README_Expand.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="69">
-                <caret line="410" column="40" selection-start-line="410" selection-start-column="27" selection-end-line="410" selection-end-column="40" />
+              <first_editor relative-caret-position="15884">
+                <caret line="722" column="4" selection-start-line="722" selection-start-column="4" selection-end-line="722" selection-end-column="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -179,7 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/Desktop/images.json" />
         <option value="$USER_HOME$/Desktop/新打标简单接口文档(4).txt" />
         <option value="$USER_HOME$/Desktop/tests.html" />
         <option value="$USER_HOME$/Desktop/color.js" />
@@ -221,7 +221,6 @@
         <option value="$PROJECT_DIR$/myPromise/package.json" />
         <option value="$PROJECT_DIR$/myPromise/promise.js" />
         <option value="$PROJECT_DIR$/myPromise/test.js" />
-        <option value="$PROJECT_DIR$/README_Expand.md" />
         <option value="$PROJECT_DIR$/myMvvm/Mvvm.js" />
         <option value="$PROJECT_DIR$/myMvvm/Observer.js" />
         <option value="$PROJECT_DIR$/myMvvm/Dep.js" />
@@ -230,6 +229,8 @@
         <option value="$PROJECT_DIR$/mvvm.md" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/LinuxData.md" />
+        <option value="$PROJECT_DIR$/docker.md" />
+        <option value="$PROJECT_DIR$/README_Expand.md" />
       </list>
     </option>
   </component>
@@ -248,7 +249,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-57" />
+    <option name="y" value="104" />
     <option name="width" value="1920" />
     <option name="height" value="1030" />
   </component>
@@ -276,7 +279,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/chaom/Desktop/jquery-3.3.1.min.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/daily/my-nuxt-template" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
@@ -467,30 +470,32 @@
       <workItem from="1575366963062" duration="2875000" />
       <workItem from="1575523698328" duration="1199000" />
       <workItem from="1575600490438" duration="23000" />
-      <workItem from="1575883375814" duration="3472000" />
+      <workItem from="1575883375814" duration="6304000" />
+      <workItem from="1576202415355" duration="4414000" />
+      <workItem from="1576806532415" duration="1390000" />
+      <workItem from="1576821652392" duration="2492000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="481412000" />
+    <option name="totallyTimeSpent" value="492540000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-57" y="104" width="1920" height="1030" extended-state="1" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18656716" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19193548" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2635575" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2635575" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2519084" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23654708" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -506,13 +511,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/eventEmitter/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myPromise/test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -670,15 +668,15 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/browserCache/浏览器缓存.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="36" column="51" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="36" column="51" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -756,17 +754,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/promise.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="308">
             <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -780,21 +778,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README_Expand.md">
+    <entry file="file://$PROJECT_DIR$/LinuxData.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="69">
-            <caret line="410" column="40" selection-start-line="410" selection-start-column="27" selection-end-line="410" selection-end-column="40" />
+          <first_editor relative-caret-position="902">
+            <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LinuxData.md">
+    <entry file="file://$PROJECT_DIR$/docker.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="590">
-            <caret line="52" column="57" selection-start-line="52" selection-start-column="57" selection-end-line="52" selection-end-column="57" />
+          <first_editor relative-caret-position="132">
+            <caret line="6" column="80" selection-start-line="6" selection-start-column="80" selection-end-line="6" selection-end-column="80" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README_Expand.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="15884">
+            <caret line="722" column="4" selection-start-line="722" selection-start-column="4" selection-end-line="722" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>
