@@ -51,3 +51,14 @@
     https://blog.csdn.net/weixin_33725270/article/details/94017030
  11.Linux 管理服务开机启动、查看开机启动服务
     https://blog.csdn.net/aswedo/article/details/90345065
+
+ 12. ## 
+    Linux环境下，怎么确定Nginx是以那个config文件启动的？
+    
+    输入命令行： ps  -ef | grep nginx
+    
+    master process 后面的就是 nginx的目录。
+
+    ps -e       //显示所有程序
+    ps -f       //显示UID,PPIP,C与STIME栏位
+    ps -ef      //是用标准的格式显示nginx这个进程
