@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    let obj = {
+      name: "zs",
+      age:10
+    }
+    Object.keys(obj).forEach(item=>{
+      let val = obj[item]
+      Object.defineProperty(obj,item,{
+        get() { 
+          console.log(`访问了${item}属性`);
+          
+          return val; 
+        },
+        set(newValue) { 
+          console.log(`新值是${newValue}`);
+          
+          val = newValue; 
+        },
+        enumerable : true,
+        configurable : true
+      })
+    })
+    
+    console.log(obj.age);
+    console.log(obj.name);
+    obj.age = 20
+    obj.name = "ls"
+  </script>
+</body>
+</html>
