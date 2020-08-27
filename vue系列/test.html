@@ -4,9 +4,62 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+    html,body{
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .tip{
+      position: relative;
+    }
+    .tip::after {
+      content: attr(data-tip);
+      display: none;
+      position: absolute;
+      padding: 10px;
+      left: 50%;
+      bottom: 100%;
+      /* left: 50%;
+      bottom: 52%; */
+      width: 150px;
+      margin-bottom: 12px;
+      transform: translateX(-50%);
+      font-size: 12px;
+      background: #000;
+      color: #fff;
+      cursor: default;
+      border-radius: 4px;
+    }
+
+    .tip::before {
+      content: " ";
+      position: absolute;
+      display: none;
+      left: 50%;
+      bottom: 100%;
+      /* left: 50%;
+      bottom: 52%; */
+      transform: translateX(-50%);
+      margin-bottom: 3px;
+      width: 0;
+      height: 0;
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      border-top: 9px solid #000;
+    }
+
+    .tip:hover::after,
+    .tip:hover::before {
+      display: block;
+    }
+  </style>
 </head>
 <body>
-  <script>
+  <div class="tip" data-tip="CSS伪类1111111">CSS伪类</div>
+  <!-- <script>
     let obj = {
       name: "zs",
       age:10
@@ -33,6 +86,6 @@
     console.log(obj.name);
     obj.age = 20
     obj.name = "ls"
-  </script>
+  </script> -->
 </body>
 </html>

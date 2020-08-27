@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    html,body{
+      height: 100%;
+      width: 600px;
+      margin: 0 auto;
+    }
+    #top{
+      height: 101%;
+      background-color: aqua;
+    }
+    #observe{
+      height: 5px;
+      width: 100%;
+    }
+    .add{
+      height: 300px;
+      width: 100%;
+      background-color: pink;
+      border:1px solid aqua;
+    }
+  </style>
+</head>
+  <body>
+    <div id="top"></div>
+    <div id="observe"></div>
+    <script>
+        var top = document.getElementById('top');
+        var observe = document.getElementById('observe')
+        function addElement(){
+           var c = document.createElement('div');
+            c.classList.add("add")
+            document.querySelector('body').appendChild(c)
+            observe.parentNode.insertBefore(c, observe)
+        }
+        const intersectionObserver = new IntersectionObserver((entries) => {
+            for (entry of entries) {
+                console.log(entry);
+                if (entry.target.id == 'observe' && entry.isIntersecting) {
+                  addElement()
+                }
+            }
+        });
+        intersectionObserver.observe(observe);
+  </script>
+  </body>
+</html>

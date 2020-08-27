@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div>
+    <img src="eg.jpg" alt="" data-img="./1.jpg"><br>
+    <img src="eg.jpg" alt="" data-img="./2.jpg"><br>
+    <img src="eg.jpg" alt="" data-img="./3.jpg"><br>
+    <img src="eg.jpg" alt="" data-img="./4.jpg"><br>
+    <img src="eg.jpg" alt="" data-img="./5.jpg"><br>
+  </div>
+  <script>
+    const imgs = document.querySelectorAll('[data-img]');
+    const intersectionObserver = new IntersectionObserver((entries) => {
+        for (entry of entries) {
+            console.log(entry);
+            
+            if (entry.isIntersecting) {
+              console.log(entry.target.dataset.img);
+              entry.target.src = entry.target.dataset.img;
+              intersectionObserver.unobserve(entry.target);
+            }
+        }
+    },{threshold: [0.5]});
+    imgs.forEach((item) => {
+        intersectionObserver.observe(item)
+    });
+</script>
+</body>
+</html>
