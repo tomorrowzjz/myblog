@@ -17,3 +17,10 @@ git 多人开发
     $ git merge temp//合并temp分支到master分支
     
     $ git branch -d temp//删除temp
+
+
+
+
+git查看一个commit属于哪个分支
+
+git branch -r --contains COMMIT_ID
