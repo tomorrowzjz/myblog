@@ -649,7 +649,7 @@ https://vue-treeselect.js.org/#vuex-support
  
  
  ## Object.create(null) vs {}
-    {}创建一个空对象但是会继承object 会有一些额外的方法，Object.create(null)创建一个空对象没有父类
+    {}创建一个空对象但是会继承object 会有一些额外的方法，Object.create(null)创建一个空对象没有父类  (将传入的对象作为创建的对象的原型)。
     
     function create(proto) {
         function F() {};
