@@ -4,7 +4,6 @@ function deepClone(target) {
     for(const key in target){
       obj[key] = deepClone(target[key])
     }
-    return obj
   }else {
     return target
   }

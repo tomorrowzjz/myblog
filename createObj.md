@@ -37,19 +37,19 @@
     } 
     var person1 = new Person("Nicholas", 29, "Software Engineer"); 
     var person2 = new Person("Greg", 27, "Doctor"); 
-    ###要创建 Person 的新实例，必须使用 new 操作符。以这种方式调用构造函数实际上会经历以下 4个步骤：
+    ### 要创建 Person 的新实例，必须使用 new 操作符。以这种方式调用构造函数实际上会经历以下 4个步骤：
        (1) 创建一个新对象；
        (2) 将构造函数的作用域赋给新对象（因此 this 就指向了这个新对象）；
        (3) 执行构造函数中的代码（为这个新对象添加属性）；
        (4) 返回新对象。
     alert(person1.constructor == Person); //true 
     alert(person2.constructor == Person); //true 
-    ###提到检测对象类型，还是 instanceof 操作符要更可靠一些。
+    ### 提到检测对象类型，还是 instanceof 操作符要更可靠一些。
     alert(person1 instanceof Object); //true 
     alert(person1 instanceof Person); //true 
     alert(person2 instanceof Object); //true 
     alert(person2 instanceof Person); //true 
-    ###创建自定义的构造函数意味着将来可以将它的实例标识为一种特定的类型；
+    ### 创建自定义的构造函数意味着将来可以将它的实例标识为一种特定的类型；
     
     
     // 当作构造函数使用
@@ -62,7 +62,7 @@
     var o = new Object(); 
     Person.call(o, "Kristen", 25, "Nurse"); 
     o.sayName(); //"Kristen" 
-    ###构造函数模式虽然好用，但也并非没有缺点。使用构造函数的主要问题，就是每个方法都要在每个
+    ### 构造函数模式虽然好用，但也并非没有缺点。使用构造函数的主要问题，就是每个方法都要在每个
        实例上重新创建一遍。因此，大可像下面这样，通过把函数定义转移到构造函数外部来解决这个问题。
        
        function Person(name, age, job){ 
@@ -77,7 +77,7 @@
        var person1 = new Person("Nicholas", 29, "Software Engineer"); 
        var person2 = new Person("Greg", 27, "Doctor"); 
        如果对象需要定义很多方法，那么就要定义很多个全局函数，于是我们这个自定义的引用类型就丝毫没有封装性可言了。
-##原型模式
+## 原型模式
     function Person(){ 
     } 
     Person.prototype.name = "Nicholas"; 
